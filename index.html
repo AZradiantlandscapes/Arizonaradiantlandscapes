@@ -5,102 +5,79 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Arizona Radiant Landscapes LLC</title>
 <style>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f5f5f5;
-    color: #333;
-}
-header {
-    background: #2f4f2f;
-    color: white;
-    text-align: center;
-    padding: 40px 20px;
-}
-h1 {
-    margin: 0;
-}
-.hero {
-    padding: 40px 20px;
-    text-align: center;
-}
-.services {
-    background: white;
-    padding: 40px 20px;
-}
-.services ul {
-    max-width: 700px;
-    margin: auto;
-}
-.gallery {
-    padding: 40px 20px;
-    text-align: center;
-}
-.contact {
-    background: #2f4f2f;
-    color: white;
-    padding: 40px 20px;
-    text-align: center;
-}
-.button {
-    display: inline-block;
-    background: #d4a017;
-    color: white;
-    padding: 12px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    margin: 10px;
-}
+body{margin:0;font-family:Arial,sans-serif;background:#111;color:#f5f1e8}
+header{background:#111;padding:35px 20px;text-align:center}
+.logo{max-width:190px;margin-bottom:15px}
+.hero{background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.75)),url('IMG_8096.jpeg');background-size:cover;background-position:center;padding:80px 20px;text-align:center}
+h1{font-size:42px;margin:10px 0;color:#fff}
+.hero h2{font-size:28px;color:#d6b46a}
+p{font-size:18px;line-height:1.6}
+.btn{display:inline-block;background:#d6b46a;color:#111;padding:14px 24px;margin:10px;border-radius:4px;text-decoration:none;font-weight:bold}
+section{padding:55px 20px;max-width:1100px;margin:auto}
+.dark{background:#1b1b1b}
+h2{font-size:32px;color:#d6b46a;text-align:center}
+.services{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr))}
+.card{background:#222;padding:25px;border:1px solid #3a3a3a;border-radius:8px;text-align:center}
+.gallery{display:grid;gap:18px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr))}
+.gallery img{width:100%;height:230px;object-fit:cover;border-radius:8px;border:2px solid #333}
+.contact{text-align:center;background:#0f1b12}
+footer{text-align:center;padding:25px;background:#080808;color:#aaa}
 </style>
 </head>
-
 <body>
 
 <header>
+<img class="logo" src="Subject-removebg-preview.png" alt="Arizona Radiant Landscapes Logo">
 <h1>Arizona Radiant Landscapes LLC</h1>
-<p>Licensed • Bonded • Insured • ROC #364932</p>
-<p>Commercial & Residential</p>
+<p>Licensed • Bonded • Insured | ROC #364932</p>
+<p>Commercial & Residential Outdoor Living</p>
 </header>
 
-<section class="hero">
-<h2>Hardscaping • Pavers • Irrigation • Gravel Installation</h2>
-<p>Transforming outdoor spaces throughout Northern Arizona.</p>
+<div class="hero">
+<h2>Luxury Hardscaping, Pavers, Irrigation & Gravel Installation</h2>
+<p>Premium outdoor transformations throughout Northern Arizona.</p>
+<a class="btn" href="tel:9288218962">Call Now</a>
+<a class="btn" href="mailto:arizonaradiantlandscapes@gmail.com">Request Estimate</a>
+</div>
+
+<section>
+<h2>Our Specialties</h2>
+<div class="services">
+<div class="card">Paver Patios & Walkways</div>
+<div class="card">Retaining Walls</div>
+<div class="card">Irrigation Installation & Repair</div>
+<div class="card">Gravel Installation</div>
+<div class="card">Fire Pits & Outdoor Living Spaces</div>
+<div class="card">Grading & Site Preparation</div>
+</div>
 </section>
 
-<section class="services">
-<h2>Our Services</h2>
-<ul>
-<li>Paver Patios & Walkways</li>
-<li>Retaining Walls</li>
-<li>Irrigation Installation & Repair</li>
-<li>Gravel Installation</li>
-<li>Fire Pits</li>
-<li>Outdoor Living Areas</li>
-<li>Landscape Lighting</li>
-<li>Grading & Site Preparation</li>
-<li>Commercial & Residential Projects</li>
-</ul>
+<section class="dark">
+<h2>Featured Projects</h2>
+<div class="gallery">
+<img src="IMG_8096.jpeg">
+<img src="IMG_8660.jpeg">
+<img src="IMG_8708.jpeg">
+<img src="IMG_8709.jpeg">
+</div>
 </section>
 
-<section class="gallery">
-<h2>Service Areas</h2>
-<p>
-Camp Verde • Cottonwood • Clarkdale • Cornville • Sedona • Village of Oak Creek • Flagstaff • Prescott • Prescott Valley
-</p>
+<section>
+<h2>Areas We Serve</h2>
+<p style="text-align:center">Camp Verde • Cottonwood • Clarkdale • Cornville • Sedona • Village of Oak Creek • Flagstaff • Prescott • Prescott Valley</p>
 </section>
 
 <section class="contact">
 <h2>Request a Free Estimate</h2>
-
-<a class="button" href="tel:9288218962">Call 928-821-8962</a>
-
-<a class="button" href="mailto:ArizonaRadiantLandscapes@gmail.com">
-Email Us
-</a>
-
-<p>ArizonaRadiantLandscapes@gmail.com</p>
+<p>Call or email Arizona Radiant Landscapes LLC today.</p>
+<a class="btn" href="tel:9288218962">928-821-8962</a>
+<a class="btn" href="mailto:arizonaradiantlandscapes@gmail.com">Email Us</a>
+<p>arizonaradiantlandscapes@gmail.com</p>
 </section>
+
+<footer>
+Arizona Radiant Landscapes LLC | ROC #364932 | Licensed • Bonded • Insured
+</footer>
 
 </body>
 </html>
